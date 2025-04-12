@@ -18,24 +18,24 @@
       <div class="container" aria-label="header">
         <nav class="header__nav" aria-label="navigation">
           <ul class="header__nav-list" aria-label="menu">
-            <li><a href="#" class="header__link" aria-label="link to home">Home</a></li>
-            <li><a href="#" class="header__link" aria-label="link to About">About</a></li>
-            <li><a href="#" class="header__link" aria-label="link to History">History</a></li>
-            <li><a href="#" class="header__link" aria-label="link to Portfolio">Portfolio</a></li>
+            <li><a href="#home-id" class="header__link" aria-label="link to home">Home</a></li>
+            <li><a href="#about-id" class="header__link" aria-label="link to About">About</a></li>
+            <li><a href="#history-id" class="header__link" aria-label="link to History">History</a></li>
+            <li><a href="#portfolio-id" class="header__link" aria-label="link to Portfolio">Portfolio</a></li>
             <li><a href="#" class="header__link" aria-label="link to Contacts">Contacts</a></li>
           </ul>
         </nav>
       </div>
     </header>
   <main aria-label="Main content">
-    <section class="home" aria-label="home-section">
+    <section class="home" aria-label="home-section" id="home-id">
       <div class="container">
       <h1 class="home-section__title" aria-label="title">Ivan Constantinovich Aivazovski</h1>
       <p class="home-section__description" aria-label="description">Russian marine painter of Armenian origin, collector, philanthropist</p>
       <img src="assets/webp/first.webp" alt="picture of Ivan Constantinovich Aivazovski" class="home-section__image" />
       </div>
     </section>
-    <section class="about" aria-label="about">
+    <section class="about" aria-label="about" id="about-id">
       <div class="container">
         <h2 class="about__title" aria-label="title">About</h2>
         <h3 class="about_history-ru" aria-label="history-ru">Ива́н Константи́нович Айвазо́вский – русский живописец-маринист армянского происхождения, коллекционер, меценат.</h3>
@@ -45,11 +45,22 @@
         <p class="about-description-en" aria-label="description-en">Being a world famous artist, Ivan Konstantinovich Aivazovsky preferred to live and work in his homeland - in the Crimea. Aivazovsky is best known for his seascapes, which make up more than half of his work. The artist is considered one of the greatest marine painters of all time.</p>
       </div>
     </section>
-    <section class="history" aria-label="history">
+    <section class="history" aria-label="history" id="history-id">
       <div class="container">
         <h2 class="history__title" aria-label="title">History</h2>
-        <img src="assets/webp/history.webp" class="photo-history">
+        <img src="assets/webp/history.webp" class="photo-history" alt="picture of house Ivan Constantinovich Aivazovski" />
         <p class="history_description" aria-label="description-history">Дом в котором родился Айвазовский | The house where Aivazovsky was born </p>
+      </div>
+    </section>
+    <section class="portfolio" aria-label="portfolio" id="portfolio-id">
+      <div class="container">
+        <h2 class="portfolio__title" aria-label="title">Portfolio</h2>
+        <img src="assets/winter.jpeg" class="photo-portfolio" alt="winter photo">
+        <p class="description-portfolio" aria-label="description-winter">Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857 </p>
+        <img src="assets/rainbow.jpeg" class="photo-portfolio" alt="rainbow photo">
+        <p class="description-portfolio" aria-label="description-rainbow">Радуга, 1873 г. | Rainbow, 1873 </p>
+        <img src="assets/webp/gulfOfNaples.webp" class="photo-portfolio" alt="gulf photo">
+        <p class="description-portfolio" aria-label="description-gulfOfNaples">Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893</p>
       </div>
     </section>
   </main>
