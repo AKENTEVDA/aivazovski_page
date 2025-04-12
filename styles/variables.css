@@ -1,3 +1,6 @@
 :root {
   --bg-main: #fff;
+  --bg-main-grey: #f6f6f6 ;
+  --color-main-text: #504c4c;
+  --color-main-hover: #070707;
 }
