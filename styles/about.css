@@ -38,25 +38,9 @@
 }
 
 @media (max-width: 480px) {
-    .about{
-        padding: 50px 60px;
-    }
-    .about__title {
-        margin: 0 auto 42px;
-    }
-    .about_history-ru, .about-history-en {
-        margin: 0 auto 15px;
-        max-height: 58px;
+
+    .about_description-ru, .about-description-en, .about_history-ru, .about-history-en {
         font-size: 14px;
-        max-width: 316px;
     }
 
-    .about_description-ru, .about-description-en {
-        margin: 0 auto 19px;
-        font-size: 14px;
-        max-width: 316px;
-    }
-    .about-history-en {
-        margin: 29px auto 15px;
-    }
 }

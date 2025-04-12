@@ -1,0 +1,40 @@
+.history {
+    text-align: center;
+    padding: 65px 0 70px;
+    color: var(--color-main-hover);
+}
+
+.history__title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 auto 72px;
+}
+
+.photo-history {
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+    object-fit: cover;
+}
+
+.history_description {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px auto 0;
+}
+
+@media (max-width: 480px) {
+    .history {
+        padding: 50px 0 80px;
+    }
+    .history__title {
+        margin: 0 auto 60px;
+    }
+    .photo-history {
+        max-width: 315px;
+    }
+    .history_description {
+        margin: 33px auto 0;
+        font-size: 14px;
+    }
+}
