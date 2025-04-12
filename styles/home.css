@@ -1,12 +1,12 @@
 .home {
     text-align: center;
+    padding: 0 0 70px 0;
 }
 
 .home-section__title {
     margin: 45px 0 25px 0;
     font-size: 45px;
     font-weight: 700;
-    font-family: "Roboto", sans-serif;
     color: var(--color-main-hover);
 }
 
@@ -14,7 +14,6 @@
     margin: 0 0 35px 0;
     font-size: 18px;
     font-weight: 500;
-    font-family: "Roboto", sans-serif;
     color: var(--color-main-hover);
 }
 

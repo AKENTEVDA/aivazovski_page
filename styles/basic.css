@@ -14,11 +14,20 @@ ul {
   list-style: none;
   margin: 0;
 }
-h1, p {
+h1, h2, p {
   margin: 0;
 }
 .container {
   margin: 0 auto;
   width: 970px;
   padding: 0 10px;
+}
+.divider-line {
+  border: none;
+  height: 1px;
+  background-color: var(--color-main-hover);
+  /*width: 100%;*/
+  /*max-width: 480px;*/
+  width: min(420px, 100%);
+  margin: 0 auto;
 }
