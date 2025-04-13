@@ -22,11 +22,34 @@
             <li><a href="#about-id" class="header__link" aria-label="link to About">About</a></li>
             <li><a href="#history-id" class="header__link" aria-label="link to History">History</a></li>
             <li><a href="#portfolio-id" class="header__link" aria-label="link to Portfolio">Portfolio</a></li>
-            <li><a href="#" class="header__link" aria-label="link to Contacts">Contacts</a></li>
+            <li><a href="#contacts-id" class="header__link" aria-label="link to Contacts">Contacts</a></li>
           </ul>
         </nav>
       </div>
     </header>
+    <div class="burger-navigation" aria-label="burger navigation">
+      <label for="burger_menu" aria-label="burger menu - open" class="burger-open">
+        <svg class="burger__open-icon" aria-label="burger menu - open">
+          <use href="/assets/sprites.svg#burger-icon"></use>
+        </svg>
+        </label>
+        <input type="checkbox" id="burger_menu" class="burger__input" />
+      <nav class="burger__nav">
+        <ul class="burger__list">
+          <li><a href="#home-id" class="burger__link" aria-label="mobile_link to home">Home</a></li>
+          <li><a href="#about-id" class="burger__link" aria-label="mobile_link to About">About</a></li>
+          <li><a href="#history-id" class="burger__link" aria-label="mobile_link to History">History</a></li>
+          <li><a href="#portfolio-id" class="burger__link" aria-label="mobile_link to Portfolio">Portfolio</a></li>
+          <li><a href="#contacts-id" class="burger__link" aria-label="mobile_link to Contacts">Contacts</a></li>
+        </ul>
+
+        <label for="burger_menu" aria-label="burger menu - close" class="burger-close">
+          <svg class="burger__close-icon" aria-label="cross menu - icon">
+            <use href="/assets/sprites.svg#cross-icon"></use>
+          </svg>
+        </label>
+      </nav>
+    </div>
   <main aria-label="Main content">
     <section class="home" aria-label="home-section" id="home-id">
       <div class="container">
@@ -64,8 +87,36 @@
       </div>
     </section>
   </main>
-  <footer>
-
+  <footer class="contacts" aria-label="contacts" id="contacts-id">
+    <div class="container">
+      <h2 class="contacts__title" aria-label="title">Contacts</h2>
+      <button class="contacts__button" aria-label="button-with-site" onclick="window.open('https://www.culture.ru/persons/8258/ivan-aivazovskii', '_blank')">
+        aivazovski
+      </button>
+      <address class="contacts__address" aria-label="address">
+        <a href="https://youtube.com" target="_blank" aria-label="youtube link">
+          <svg class="social-icon" aria-label="youtube-icon">
+            <use href="assets/sprites.svg#youtube-icon"></use>
+          </svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" aria-label="linkedin link">
+          <svg class="social-icon" aria-label="linkedin-icon">
+            <use href="assets/sprites.svg#linkedin-icon"></use>
+          </svg>
+        </a>
+        <a href="https://instagram.com" target="_blank" aria-label="instagram link">
+          <svg class="social-icon" aria-label="instagram-icon">
+            <use href="assets/sprites.svg#instagram-icon"></use>
+          </svg>
+        </a>
+        <a href="https://facebook.com" target="_blank" aria-label="facebook link">
+          <svg class="social-icon" aria-label="facebook-icon">
+            <use href="assets/sprites.svg#facebook-icon"></use>
+          </svg>
+        </a>
+      </address>
+      <p class="information_contacts" aria-label="more-information">More works you can see in these social networks</p>
+    </div>
   </footer>
   </body>
 </html>
